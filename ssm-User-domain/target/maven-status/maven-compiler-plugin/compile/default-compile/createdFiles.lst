@@ -1,0 +1,4 @@
+cn\wdb\domain\GitHubUser.class
+cn\wdb\domain\User.class
+cn\wdb\domain\Admin.class
+cn\wdb\domain\GitHubDTO.class

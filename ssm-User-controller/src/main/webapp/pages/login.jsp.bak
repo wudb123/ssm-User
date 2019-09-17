@@ -53,7 +53,6 @@
         <hr/>
         <div class="form-group" style="text-align: center;">
             <input class="btn btn btn-primary" type="submit" value="登录">
-            <a href="https://github.com/login/oauth/authorize?client_id=8f52f07098ae4fc566bb&redirect_uri=http://localhost:8080/ssm-User-controller/callBack&scope=user&state=1">使用github账号登录</a>
         </div>
     </form>
 

@@ -1,5 +1,7 @@
 package cn.wdb.controller;
 
+import cn.wdb.dao.UserDao;
+import cn.wdb.service.UserService;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -21,14 +23,13 @@ public class AopController {
     @Autowired
     private HttpServletRequest request;
 
-
     @Pointcut("execution(* cn.wdb.controller.*.*(..))")
     public void pj(){};
 
     @Before("pj()")
     public void doBefore() throws Exception{
         String uri = request.getRequestURI();
-        if(uri.contains("/login") ||uri.contains("/img") ||uri.contains("/css/") ||uri.contains("/js/") ||uri.contains("/fonts/")){
+        if(uri.contains("/login") ||uri.contains("/img") ||uri.contains("/callBack") ||uri.contains("/css/") ||uri.contains("/js/") ||uri.contains("/fonts/")){
 
         }else{
             Object admin = request.getSession().getAttribute("admin");

@@ -51,6 +51,8 @@
     <!--配置service开始 -->
     <!--配置扫描的包 -->
     <context:component-scan base-package="cn.wdb.service"/>
+    <!-- 配置扫描utils的包-->
+    <context:component-scan base-package="cn.wdb.utils"/>
     <!--配置声明式事务管理-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
