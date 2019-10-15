@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:24:51 +0800] "GET /ssm-User-controller/ HTTP/1.1" 200 2807 http-bio-8080-exec-1 822
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:24:52 +0800] "GET /ssm-User-controller/js/bootstrap.min.js HTTP/1.1" 200 37045 http-bio-8080-exec-4 58
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:24:52 +0800] "GET /ssm-User-controller/css/bootstrap.min.css HTTP/1.1" 200 121200 http-bio-8080-exec-2 144
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:24:52 +0800] "GET /ssm-User-controller/js/jquery-2.1.0.min.js HTTP/1.1" 200 83617 http-bio-8080-exec-5 63
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:24:52 +0800] "GET /ssm-User-controller/user/img HTTP/1.1" 200 1703 http-bio-8080-exec-3 286
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:25:07 +0800] "GET /ssm-User-controller/callBack?code=ebc01dd0a4b8ca1d5a1b&state=1 HTTP/1.1" 200 835 http-bio-8080-exec-9 2855
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:25:10 +0800] "GET /ssm-User-controller/user/findAll HTTP/1.1" 200 11482 http-bio-8080-exec-10 1090
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:25:12 +0800] "GET /ssm-User-controller/user/findAll?page=8&pageSize=7&name=&address=&email= HTTP/1.1" 200 11490 http-bio-8080-exec-10 19
+0:0:0:0:0:0:0:1 - - [15/Oct/2019:10:25:14 +0800] "POST /ssm-User-controller/user/findAll HTTP/1.1" 200 10497 http-bio-8080-exec-10 35
